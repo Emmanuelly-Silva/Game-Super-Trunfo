@@ -25,7 +25,7 @@ As seguintes tecnologias foram usadas no desenvolvimento do projeto:
 <br>
 
 ## 💡 Como acessar o projeto:
-#### Para acessar basta clicar no link a seguir:
+#### Para acessar basta clicar no link a seguir: https://emmanuelly-silva.github.io/Game-Super-Trunfo/.
 <!-- <i>Durante o teste do projeto, é possível ativar e desativar a música de fundo.</i>-->
 <br><br>
 
