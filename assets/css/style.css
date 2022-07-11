@@ -7,13 +7,11 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-image: url(../img/background.png);
     background-color: #000000;
-    background-image: url(/assets/img/background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* cursor: url(http://www.webcis.com.br/images/lupa-clientes.cur), default; */
-
 }
 
 .container {
