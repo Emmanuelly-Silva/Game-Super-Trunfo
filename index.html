@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Trunfo</title>
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="result">
+            <div class="overlay-text visible">
+                Click to Start
+            </div>
+            <div id="defeat-text" class="overlay-text">
+                DERROTA
+                <span class="overlay-text-small">Vá para a próxima rodada</span>
+            </div>
+            <div id="victory-text" class="overlay-text">
+                VITÓRIA
+                <span class="overlay-text-small">Vá para a próxima rodada</span>
+            </div>
+            <div id="tie-text" class="overlay-text">
+                EMPATE
+                <span class="overlay-text-small">Vá para a próxima rodada</span>
+            </div>
+            <div id="game-over-text" class="overlay-text">
+                FIM DE JOGO
+                <span class="overlay-text-small">VOCÊ PERDEU</span>
+            </div>
+            <div id="game-win-text" class="overlay-text">
+                FIM DE JOGO
+                <span class="overlay-text-small">VOCÊ GANHOU</span>
+            </div>
+            <div id="game-tie-text" class="overlay-text">
+                FIM DE JOGO
+                <span class="overlay-text-small">O JOGO EMPATOU</span>
+            </div>
+        </div>
+
+        <h1 class="page-title">Super Trunfo</h1>
+        <button onclick="drawCard()" id="btnDraw">Sortear carta</button>
+
+        <form id="form">
+            <div class="wrapper">
+                <div id="scoreboard-names"></div>
+                <div id="scoreboard-image"></div>
+                <div id="number-rounds"></div>
+                <div id="scoreboard"></div>
+                <div id="round">Rodada</div>
+                <div id="number-cards"></div>
+                <h2>Escolha o seu atributo</h2>
+
+                <div id="cards">
+                    <div id="player-card" class="card"></div>
+
+                    <div id="versus-image" class="versus-cards"></div>
+
+                    <div id="machine-card" class="card"></div>
+
+                    <div id="result-buff-nerf"></div>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button class="btn-BuffNerf" type="button" id="btnBuffNerf" onclick="buffNerf()" disabled="false">Buff ou Nerf</button>
+                <button class="btn-play" type="button" id="btnPlay" onclick="startGame()" disabled="false">Jogar</button>
+                <button class="btn-nextround" type="button" id="btnNextround" onclick="nextRound()" disabled="true">Próxima Rodada</button>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript" src="/assets/js/index.js"></script>
+</body>
+
+</html>
