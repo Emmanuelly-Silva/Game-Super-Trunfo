@@ -82,8 +82,8 @@ form {
     color: lime;
     font-size: 21px;
     position: absolute;
-    top: 43%;
-    left: 49.3%;
+    top: 44.3%;
+    left: 49.1%;
     font-weight: bold;
 }
 
@@ -93,8 +93,8 @@ form {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
-    top: 42%;
-    left: 41.5%;
+    top: 43.2%;
+    left: 41.3%;
     word-spacing: 66.5px;
     font-family: 'Roboto Mono', monospace;
 }
@@ -111,7 +111,7 @@ form {
 #number-cards {
     color: lime;
     position: absolute;
-    top: 51.2%;
+    top: 52.5%;
     left: 40%;
     font-weight: bold;
 }
@@ -144,10 +144,10 @@ form {
 #result-buff-nerf {
     color: #00ff00;
     position: absolute;
-    bottom: -42.1%;
-    left: 14.5%;
-    line-height: 52px;
-    font-size: 17px;
+    bottom: -46.2%;
+    left: 14.7%;
+    line-height: 54px;
+    font-size: 15px;
 }
 
 .card-subtitle {
