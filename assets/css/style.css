@@ -20,6 +20,16 @@ body {
     text-transform: uppercase;
 }
 
+.link-github {
+    display: flex;
+    align-items: flex-start;
+}
+
+.link-github i {
+    color: white;
+    font-size: 40px;
+}
+
 .page-title {
     color: #ffffff;
     font-size: 55px;
